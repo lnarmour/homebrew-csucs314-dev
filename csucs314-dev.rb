@@ -4,13 +4,13 @@
 class Csucs314Dev < Formula
   desc ""
   homepage ""
-  url "https://github.com/lnarmour/csucs314-dev/archive/refs/tags/v1.0.tar.gz"
-  sha256 "ee65c741500c5281bce4228487787ec7502937e5e6233b3805a6b63639b14e38"
+  url "https://github.com/lnarmour/csucs314-dev/archive/refs/tags/v1.1.tar.gz"
+  sha256 "6d32fbdc0f36b886c0a8f531d7ba149b85276b7b0962ab3bd8b1defa1106a3ab"
   license ""
 
   # depends_on "cmake" => :build
 
   def install
-    bin.install "csucs314-dev"
+    bin.install "the-one-tool-to-rule-them-all"
   end
 end
