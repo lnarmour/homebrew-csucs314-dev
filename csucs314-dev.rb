@@ -11,6 +11,6 @@ class Csucs314Dev < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "the-one-tool-to-rule-them-all"
+    system "cp", "the-one-tool-to-rule-them-all", "/usr/local/bin/"
   end
 end
